@@ -3,3 +3,6 @@ __email__ = 'floyd.hightower27@gmail.com'
 __version__ = '2021.01.12'
 
 from .converter import *
+from .distance_converter import *
+from .temperature_converter import *
+from .time_converter import *
