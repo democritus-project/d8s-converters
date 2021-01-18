@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.com/democritus-project/democritus-converters.svg?branch=master)](https://travis-ci.com/democritus-project/democritus-converters)
 [![codecov](https://codecov.io/gh/democritus-project/democritus-converters/branch/master/graph/badge.svg?token=V0WOIXRGMM)](https://codecov.io/gh/democritus-project/democritus-converters)
 
-Democritus functions<sup>[1]</sup> for working with converters.
+Democritus functions<sup>[1]</sup> for easily converting dates, times, temperatures, and distances.
 
 [1] Democritus functions are <i>simple, effective, modular, well-tested, and well-documented</i> Python functions.
 
