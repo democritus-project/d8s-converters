@@ -1,9 +1,7 @@
 import pint
 import pytest
 
-from democritus_converters import (
-    convert,
-)
+from democritus_converters import convert
 from democritus_converters.converter import _pint_is_valid_unit
 
 
