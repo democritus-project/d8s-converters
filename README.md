@@ -1,8 +1,8 @@
 # Democritus Converters
 
 [![PyPI](https://img.shields.io/pypi/v/democritus-converters.svg)](https://pypi.python.org/pypi/democritus-converters)
-[![Build Status](https://travis-ci.com/democritus-project/democritus-converters.svg?branch=master)](https://travis-ci.com/democritus-project/democritus-converters)
-[![codecov](https://codecov.io/gh/democritus-project/democritus-converters/branch/master/graph/badge.svg?token=V0WOIXRGMM)](https://codecov.io/gh/democritus-project/democritus-converters)
+[![Build Status](https://travis-ci.com/democritus-project/democritus-converters.svg?branch=main)](https://travis-ci.com/democritus-project/democritus-converters)
+[![codecov](https://codecov.io/gh/democritus-project/democritus-converters/branch/main/graph/badge.svg?token=V0WOIXRGMM)](https://codecov.io/gh/democritus-project/democritus-converters)
 
 Democritus functions<sup>[1]</sup> for easily converting dates, times, temperatures, and distances.
 

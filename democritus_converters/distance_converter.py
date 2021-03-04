@@ -5,7 +5,8 @@ s = '''
 def {{a}}_to_{{b}}({{a}}):
     return convert({{a}}, '{{a}}', '{{b}}')'''
 
-# these time units (with 'meter' added) were taken from: https://github.com/hgrecco/pint/blob/ffc05dcf92347b217e14adbf96c36160f6128627/pint/default_en.txt
+# these time units (with 'meter' added) were taken from:
+# https://github.com/hgrecco/pint/blob/ffc05dcf92347b217e14adbf96c36160f6128627/pint/default_en.txt
 l = ['meter',
 'centimeter',
 'millimeter',
