@@ -4,17 +4,17 @@ set -euxo pipefail
 
 echo "Running linters and formatters..."
 
-isort democritus_converters/ tests/
+isort d8s_converters/ tests/
 
-black democritus_converters/ tests/
+black d8s_converters/ tests/
 
-mypy democritus_converters/ tests/
+mypy d8s_converters/ tests/
 
-pylint --fail-under 9 democritus_converters/*.py
+pylint --fail-under 9 d8s_converters/*.py
 
-flake8 democritus_converters/ tests/
+flake8 d8s_converters/ tests/
 
-bandit -r democritus_converters/
+bandit -r d8s_converters/
 
 # we run black again at the end to undo any odd changes made by any of the linters above
-black democritus_converters/ tests/
+black d8s_converters/ tests/

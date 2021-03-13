@@ -9,13 +9,13 @@ from .temperature_converter import *
 from .time_converter import *
 
 try:
-    __version__ = version('democritus_converters')
+    __version__ = version('d8s_converters')
 except PackageNotFoundError:
     message = (
-        'Unable to find a version number for "democritus_converters". '
+        'Unable to find a version number for "d8s_converters". '
         + 'This likely means the library was not installed properly. '
         + 'Please re-install it and, if the problem persists, '
-        + 'raise an issue here: https://github.com/democritus-project/democritus-converters/issues.'
+        + 'raise an issue here: https://github.com/democritus-project/d8s-converters/issues.'
     )
     print(message)
 

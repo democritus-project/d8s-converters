@@ -1,8 +1,8 @@
 import pint
 import pytest
 
-from democritus_converters import convert
-from democritus_converters.converter import _pint_is_valid_unit
+from d8s_converters import convert
+from d8s_converters.converter import _pint_is_valid_unit
 
 
 def test__pint_is_valid_unit_1():

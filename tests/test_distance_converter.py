@@ -1,4 +1,4 @@
-from democritus_converters import (
+from d8s_converters import (
     angstroms_to_astronomical_units,
     angstroms_to_centimeters,
     angstroms_to_feet,
