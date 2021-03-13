@@ -1,4 +1,4 @@
-from democritus_converters import (
+from d8s_converters import (
     centuries_to_days,
     centuries_to_fortnights,
     centuries_to_hours,

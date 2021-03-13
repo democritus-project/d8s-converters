@@ -1,4 +1,4 @@
-from democritus_converters import (
+from d8s_converters import (
     celsius_to_fahrenheit,
     celsius_to_felsius,
     celsius_to_kelvin,
