@@ -41,9 +41,6 @@ for i in funcs:
 file_append('../democritus_core/distance_converter.py', '\n\n\n'.join(funcs))
 """
 
-# TODO: write functions to make sure biblical units are convertable (e.g. cubits, etc)
-# TODO: expand the units covered by this module (especially expand it to provide more metric units)
-
 
 def meters_to_centimeters(meters):
     return convert(meters, 'meters', 'centimeters')
