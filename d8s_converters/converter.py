@@ -6,7 +6,7 @@ ureg = pint.UnitRegistry()
 
 
 def _pint_is_valid_unit(unit: str):
-    """."""
+    """Return whether or not the given unit is a valid unit in pint."""
     if hasattr(ureg, unit):
         return True
     else:
