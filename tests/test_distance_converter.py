@@ -295,7 +295,7 @@ def test_angstroms_to_parsecs_docs_1():
 
 
 def test_angstroms_to_planck_lengths_docs_1():
-    assert angstroms_to_planck_lengths(1) == 6.18714240567674e24
+    assert angstroms_to_planck_lengths(1) == 6.187142405676739e24
 
 
 def test_angstroms_to_yards_docs_1():
@@ -327,7 +327,7 @@ def test_astronomical_units_to_kilometers_docs_1():
 
 
 def test_astronomical_units_to_light_years_docs_1():
-    assert astronomical_units_to_light_years(1) == 1.5812507409820653e-05
+    assert astronomical_units_to_light_years(1) == 1.5812507409820656e-05
 
 
 def test_astronomical_units_to_meters_docs_1():
@@ -355,7 +355,7 @@ def test_astronomical_units_to_parsecs_docs_1():
 
 
 def test_astronomical_units_to_planck_lengths_docs_1():
-    assert astronomical_units_to_planck_lengths(1) == 9.255833296069156e45
+    assert astronomical_units_to_planck_lengths(1) == 9.255833296069158e45
 
 
 def test_astronomical_units_to_yards_docs_1():
@@ -415,7 +415,7 @@ def test_centimeters_to_parsecs_docs_1():
 
 
 def test_centimeters_to_planck_lengths_docs_1():
-    assert centimeters_to_planck_lengths(1) == 6.187142405676739e32
+    assert centimeters_to_planck_lengths(1) == 6.1871424056767386e32
 
 
 def test_centimeters_to_yards_docs_1():
@@ -447,7 +447,7 @@ def test_feet_to_kilometers_docs_1():
 
 
 def test_feet_to_light_years_docs_1():
-    assert feet_to_light_years(1) == 3.221738542107026e-17
+    assert feet_to_light_years(1) == 3.2217385421070266e-17
 
 
 def test_feet_to_meters_docs_1():
@@ -475,7 +475,7 @@ def test_feet_to_parsecs_docs_1():
 
 
 def test_feet_to_planck_lengths_docs_1():
-    assert feet_to_planck_lengths(1) == 1.8858410052502695e34
+    assert feet_to_planck_lengths(1) == 1.88584100525027e34
 
 
 def test_feet_to_yards_docs_1():
@@ -535,7 +535,7 @@ def test_hands_to_parsecs_docs_1():
 
 
 def test_hands_to_planck_lengths_docs_1():
-    assert hands_to_planck_lengths(1) == 6.286136684167566e33
+    assert hands_to_planck_lengths(1) == 6.286136684167568e33
 
 
 def test_hands_to_yards_docs_1():
@@ -595,7 +595,7 @@ def test_inches_to_parsecs_docs_1():
 
 
 def test_inches_to_planck_lengths_docs_1():
-    assert inches_to_planck_lengths(1) == 1.5715341710418914e33
+    assert inches_to_planck_lengths(1) == 1.571534171041892e33
 
 
 def test_inches_to_yards_docs_1():
@@ -655,7 +655,7 @@ def test_kilometers_to_parsecs_docs_1():
 
 
 def test_kilometers_to_planck_lengths_docs_1():
-    assert kilometers_to_planck_lengths(1) == 6.187142405676738e37
+    assert kilometers_to_planck_lengths(1) == 6.18714240567674e37
 
 
 def test_kilometers_to_yards_docs_1():
@@ -715,7 +715,7 @@ def test_light_years_to_parsecs_docs_1():
 
 
 def test_light_years_to_planck_lengths_docs_1():
-    assert light_years_to_planck_lengths(1) == 5.853488669558279e50
+    assert light_years_to_planck_lengths(1) == 5.853488669558278e50
 
 
 def test_light_years_to_yards_docs_1():
@@ -775,7 +775,7 @@ def test_meters_to_parsecs_docs_1():
 
 
 def test_meters_to_planck_lengths_docs_1():
-    assert meters_to_planck_lengths(1) == 6.1871424056767375e34
+    assert meters_to_planck_lengths(1) == 6.187142405676739e34
 
 
 def test_meters_to_yards_docs_1():
@@ -811,7 +811,7 @@ def test_microns_to_kilometers_docs_1():
 
 
 def test_microns_to_light_years_docs_1():
-    assert microns_to_light_years(1) == 1.0570008340246152e-22
+    assert microns_to_light_years(1) == 1.0570008340246153e-22
 
 
 def test_microns_to_meters_docs_1():
@@ -835,7 +835,7 @@ def test_microns_to_parsecs_docs_1():
 
 
 def test_microns_to_planck_lengths_docs_1():
-    assert microns_to_planck_lengths(1) == 6.187142405676739e28
+    assert microns_to_planck_lengths(1) == 6.187142405676738e28
 
 
 def test_microns_to_yards_docs_1():
@@ -859,11 +859,11 @@ def test_miles_to_feet_docs_1():
 
 
 def test_miles_to_hands_docs_1():
-    assert miles_to_hands(1) == 15840.000000000002
+    assert miles_to_hands(1) == 15840.0
 
 
 def test_miles_to_inches_docs_1():
-    assert miles_to_inches(1) == 63360.00000000001
+    assert miles_to_inches(1) == 63360.0
 
 
 def test_miles_to_kilometers_docs_1():
@@ -871,7 +871,7 @@ def test_miles_to_kilometers_docs_1():
 
 
 def test_miles_to_light_years_docs_1():
-    assert miles_to_light_years(1) == 1.701077950232511e-13
+    assert miles_to_light_years(1) == 1.7010779502325107e-13
 
 
 def test_miles_to_meters_docs_1():
@@ -895,7 +895,7 @@ def test_miles_to_parsecs_docs_1():
 
 
 def test_miles_to_planck_lengths_docs_1():
-    assert miles_to_planck_lengths(1) == 9.957240507721424e37
+    assert miles_to_planck_lengths(1) == 9.957240507721426e37
 
 
 def test_miles_to_yards_docs_1():
@@ -931,7 +931,7 @@ def test_millimeters_to_kilometers_docs_1():
 
 
 def test_millimeters_to_light_years_docs_1():
-    assert millimeters_to_light_years(1) == 1.0570008340246152e-19
+    assert millimeters_to_light_years(1) == 1.0570008340246154e-19
 
 
 def test_millimeters_to_meters_docs_1():
@@ -955,7 +955,7 @@ def test_millimeters_to_parsecs_docs_1():
 
 
 def test_millimeters_to_planck_lengths_docs_1():
-    assert millimeters_to_planck_lengths(1) == 6.187142405676738e31
+    assert millimeters_to_planck_lengths(1) == 6.187142405676739e31
 
 
 def test_millimeters_to_yards_docs_1():
@@ -991,7 +991,7 @@ def test_nautical_miles_to_kilometers_docs_1():
 
 
 def test_nautical_miles_to_light_years_docs_1():
-    assert nautical_miles_to_light_years(1) == 1.9575655446135877e-13
+    assert nautical_miles_to_light_years(1) == 1.957565544613588e-13
 
 
 def test_nautical_miles_to_meters_docs_1():
@@ -1027,7 +1027,7 @@ def test_parsecs_to_angstroms_docs_1():
 
 
 def test_parsecs_to_astronomical_units_docs_1():
-    assert parsecs_to_astronomical_units(1) == 206264.8062454803
+    assert parsecs_to_astronomical_units(1) == 206264.80624548031
 
 
 def test_parsecs_to_centimeters_docs_1():
@@ -1075,7 +1075,7 @@ def test_parsecs_to_nautical_miles_docs_1():
 
 
 def test_parsecs_to_planck_lengths_docs_1():
-    assert parsecs_to_planck_lengths(1) == 1.9091526614541698e51
+    assert parsecs_to_planck_lengths(1) == 1.90915266145417e51
 
 
 def test_parsecs_to_yards_docs_1():
@@ -1111,7 +1111,7 @@ def test_planck_lengths_to_kilometers_docs_1():
 
 
 def test_planck_lengths_to_light_years_docs_1():
-    assert planck_lengths_to_light_years(1) == 1.7083829088123314e-51
+    assert planck_lengths_to_light_years(1) == 1.7083829088123316e-51
 
 
 def test_planck_lengths_to_meters_docs_1():
@@ -1135,7 +1135,7 @@ def test_planck_lengths_to_nautical_miles_docs_1():
 
 
 def test_planck_lengths_to_parsecs_docs_1():
-    assert planck_lengths_to_parsecs(1) == 5.237925809653777e-52
+    assert planck_lengths_to_parsecs(1) == 5.237925809653778e-52
 
 
 def test_planck_lengths_to_yards_docs_1():
@@ -1171,7 +1171,7 @@ def test_yards_to_kilometers_docs_1():
 
 
 def test_yards_to_light_years_docs_1():
-    assert yards_to_light_years(1) == 9.665215626321082e-17
+    assert yards_to_light_years(1) == 9.665215626321083e-17
 
 
 def test_yards_to_meters_docs_1():

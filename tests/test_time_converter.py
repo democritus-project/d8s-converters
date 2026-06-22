@@ -129,11 +129,11 @@ def test_centuries_to_years_docs_1():
 
 
 def test_days_to_centuries_docs_1():
-    assert days_to_centuries(1) == 2.737850787132101e-05
+    assert days_to_centuries(1) == 2.7378507871321012e-05
 
 
 def test_days_to_fortnights_docs_1():
-    assert days_to_fortnights(1) == 0.07142857142857141
+    assert days_to_fortnights(1) == 0.07142857142857142
 
 
 def test_days_to_hours_docs_1():
@@ -157,7 +157,7 @@ def test_days_to_seconds_docs_1():
 
 
 def test_days_to_weeks_docs_1():
-    assert days_to_weeks(1) == 0.14285714285714282
+    assert days_to_weeks(1) == 0.14285714285714285
 
 
 def test_days_to_years_docs_1():
@@ -165,7 +165,7 @@ def test_days_to_years_docs_1():
 
 
 def test_fortnights_to_centuries_docs_1():
-    assert fortnights_to_centuries(1) == 0.00038329911019849413
+    assert fortnights_to_centuries(1) == 0.0003832991101984942
 
 
 def test_fortnights_to_days_docs_1():
@@ -185,7 +185,7 @@ def test_fortnights_to_minutes_docs_1():
 
 
 def test_fortnights_to_months_docs_1():
-    assert fortnights_to_months(1) == 0.45995893223819295
+    assert fortnights_to_months(1) == 0.459958932238193
 
 
 def test_fortnights_to_seconds_docs_1():
@@ -201,7 +201,7 @@ def test_fortnights_to_years_docs_1():
 
 
 def test_hours_to_centuries_docs_1():
-    assert hours_to_centuries(1) == 1.1407711613050422e-06
+    assert hours_to_centuries(1) == 1.140771161305042e-06
 
 
 def test_hours_to_days_docs_1():
@@ -209,7 +209,7 @@ def test_hours_to_days_docs_1():
 
 
 def test_hours_to_fortnights_docs_1():
-    assert hours_to_fortnights(1) == 0.002976190476190475
+    assert hours_to_fortnights(1) == 0.002976190476190476
 
 
 def test_hours_to_millenniums_docs_1():
@@ -229,7 +229,7 @@ def test_hours_to_seconds_docs_1():
 
 
 def test_hours_to_weeks_docs_1():
-    assert hours_to_weeks(1) == 0.00595238095238095
+    assert hours_to_weeks(1) == 0.005952380952380952
 
 
 def test_hours_to_years_docs_1():
@@ -245,7 +245,7 @@ def test_millenniums_to_days_docs_1():
 
 
 def test_millenniums_to_fortnights_docs_1():
-    assert millenniums_to_fortnights(1) == 26089.285714285706
+    assert millenniums_to_fortnights(1) == 26089.285714285714
 
 
 def test_millenniums_to_hours_docs_1():
@@ -265,7 +265,7 @@ def test_millenniums_to_seconds_docs_1():
 
 
 def test_millenniums_to_weeks_docs_1():
-    assert millenniums_to_weeks(1) == 52178.57142857141
+    assert millenniums_to_weeks(1) == 52178.57142857143
 
 
 def test_millenniums_to_years_docs_1():
@@ -273,7 +273,7 @@ def test_millenniums_to_years_docs_1():
 
 
 def test_minutes_to_centuries_docs_1():
-    assert minutes_to_centuries(1) == 1.901285268841737e-08
+    assert minutes_to_centuries(1) == 1.9012852688417368e-08
 
 
 def test_minutes_to_days_docs_1():
@@ -281,7 +281,7 @@ def test_minutes_to_days_docs_1():
 
 
 def test_minutes_to_fortnights_docs_1():
-    assert minutes_to_fortnights(1) == 4.960317460317459e-05
+    assert minutes_to_fortnights(1) == 4.9603174603174596e-05
 
 
 def test_minutes_to_hours_docs_1():
@@ -289,7 +289,7 @@ def test_minutes_to_hours_docs_1():
 
 
 def test_minutes_to_millenniums_docs_1():
-    assert minutes_to_millenniums(1) == 1.9012852688417366e-09
+    assert minutes_to_millenniums(1) == 1.901285268841737e-09
 
 
 def test_minutes_to_months_docs_1():
@@ -301,7 +301,7 @@ def test_minutes_to_seconds_docs_1():
 
 
 def test_minutes_to_weeks_docs_1():
-    assert minutes_to_weeks(1) == 9.920634920634918e-05
+    assert minutes_to_weeks(1) == 9.920634920634919e-05
 
 
 def test_minutes_to_years_docs_1():
@@ -309,7 +309,7 @@ def test_minutes_to_years_docs_1():
 
 
 def test_months_to_centuries_docs_1():
-    assert months_to_centuries(1) == 0.0008333333333333334
+    assert months_to_centuries(1) == 0.0008333333333333333
 
 
 def test_months_to_days_docs_1():
@@ -317,7 +317,7 @@ def test_months_to_days_docs_1():
 
 
 def test_months_to_fortnights_docs_1():
-    assert months_to_fortnights(1) == 2.1741071428571423
+    assert months_to_fortnights(1) == 2.174107142857143
 
 
 def test_months_to_hours_docs_1():
@@ -337,7 +337,7 @@ def test_months_to_seconds_docs_1():
 
 
 def test_months_to_weeks_docs_1():
-    assert months_to_weeks(1) == 4.348214285714285
+    assert months_to_weeks(1) == 4.348214285714286
 
 
 def test_months_to_years_docs_1():
@@ -353,7 +353,7 @@ def test_seconds_to_days_docs_1():
 
 
 def test_seconds_to_fortnights_docs_1():
-    assert seconds_to_fortnights(60) == 4.960317460317459e-05
+    assert seconds_to_fortnights(60) == 4.9603174603174596e-05
 
 
 def test_seconds_to_hours_docs_1():
@@ -373,7 +373,7 @@ def test_seconds_to_months_docs_1():
 
 
 def test_seconds_to_weeks_docs_1():
-    assert seconds_to_weeks(60) == 9.920634920634918e-05
+    assert seconds_to_weeks(60) == 9.920634920634919e-05
 
 
 def test_seconds_to_years_docs_1():
@@ -381,7 +381,7 @@ def test_seconds_to_years_docs_1():
 
 
 def test_weeks_to_centuries_docs_1():
-    assert weeks_to_centuries(1) == 0.00019164955509924707
+    assert weeks_to_centuries(1) == 0.0001916495550992471
 
 
 def test_weeks_to_days_docs_1():
@@ -405,7 +405,7 @@ def test_weeks_to_minutes_docs_1():
 
 
 def test_weeks_to_months_docs_1():
-    assert weeks_to_months(1) == 0.22997946611909648
+    assert weeks_to_months(1) == 0.2299794661190965
 
 
 def test_weeks_to_seconds_docs_1():
@@ -425,7 +425,7 @@ def test_years_to_days_docs_1():
 
 
 def test_years_to_fortnights_docs_1():
-    assert years_to_fortnights(1) == 26.089285714285708
+    assert years_to_fortnights(1) == 26.08928571428571
 
 
 def test_years_to_hours_docs_1():
@@ -449,4 +449,4 @@ def test_years_to_seconds_docs_1():
 
 
 def test_years_to_weeks_docs_1():
-    assert years_to_weeks(1) == 52.178571428571416
+    assert years_to_weeks(1) == 52.17857142857142
