@@ -1,3 +1,5 @@
+import pytest
+
 from d8s_converters import (
     centuries_to_days,
     centuries_to_fortnights,
@@ -93,360 +95,360 @@ from d8s_converters import (
 
 
 def test_centuries_to_days_docs_1():
-    assert centuries_to_days(1) == 36525.0
+    assert centuries_to_days(1) == pytest.approx(36525.0)
 
 
 def test_centuries_to_fortnights_docs_1():
-    assert centuries_to_fortnights(1) == 2608.928571428571
+    assert centuries_to_fortnights(1) == pytest.approx(2608.928571428571)
 
 
 def test_centuries_to_hours_docs_1():
-    assert centuries_to_hours(1) == 876600.0
+    assert centuries_to_hours(1) == pytest.approx(876600.0)
 
 
 def test_centuries_to_millenniums_docs_1():
-    assert centuries_to_millenniums(1) == 0.1
+    assert centuries_to_millenniums(1) == pytest.approx(0.1)
 
 
 def test_centuries_to_minutes_docs_1():
-    assert centuries_to_minutes(1) == 52596000.0
+    assert centuries_to_minutes(1) == pytest.approx(52596000.0)
 
 
 def test_centuries_to_months_docs_1():
-    assert centuries_to_months(1) == 1200.0
+    assert centuries_to_months(1) == pytest.approx(1200.0)
 
 
 def test_centuries_to_seconds_docs_1():
-    assert centuries_to_seconds(1) == 3155760000.0
+    assert centuries_to_seconds(1) == pytest.approx(3155760000.0)
 
 
 def test_centuries_to_weeks_docs_1():
-    assert centuries_to_weeks(1) == 5217.857142857142
+    assert centuries_to_weeks(1) == pytest.approx(5217.857142857142)
 
 
 def test_centuries_to_years_docs_1():
-    assert centuries_to_years(1) == 100.0
+    assert centuries_to_years(1) == pytest.approx(100.0)
 
 
 def test_days_to_centuries_docs_1():
-    assert days_to_centuries(1) == 2.737850787132101e-05
+    assert days_to_centuries(1) == pytest.approx(2.7378507871321012e-05)
 
 
 def test_days_to_fortnights_docs_1():
-    assert days_to_fortnights(1) == 0.07142857142857141
+    assert days_to_fortnights(1) == pytest.approx(0.07142857142857142)
 
 
 def test_days_to_hours_docs_1():
-    assert days_to_hours(1) == 24.0
+    assert days_to_hours(1) == pytest.approx(24.0)
 
 
 def test_days_to_millenniums_docs_1():
-    assert days_to_millenniums(1) == 2.737850787132101e-06
+    assert days_to_millenniums(1) == pytest.approx(2.737850787132101e-06)
 
 
 def test_days_to_minutes_docs_1():
-    assert days_to_minutes(1) == 1440.0
+    assert days_to_minutes(1) == pytest.approx(1440.0)
 
 
 def test_days_to_months_docs_1():
-    assert days_to_months(1) == 0.03285420944558522
+    assert days_to_months(1) == pytest.approx(0.03285420944558522)
 
 
 def test_days_to_seconds_docs_1():
-    assert days_to_seconds(1) == 86400
+    assert days_to_seconds(1) == pytest.approx(86400)
 
 
 def test_days_to_weeks_docs_1():
-    assert days_to_weeks(1) == 0.14285714285714282
+    assert days_to_weeks(1) == pytest.approx(0.14285714285714285)
 
 
 def test_days_to_years_docs_1():
-    assert days_to_years(1) == 0.0027378507871321013
+    assert days_to_years(1) == pytest.approx(0.0027378507871321013)
 
 
 def test_fortnights_to_centuries_docs_1():
-    assert fortnights_to_centuries(1) == 0.00038329911019849413
+    assert fortnights_to_centuries(1) == pytest.approx(0.0003832991101984942)
 
 
 def test_fortnights_to_days_docs_1():
-    assert fortnights_to_days(1) == 14.0
+    assert fortnights_to_days(1) == pytest.approx(14.0)
 
 
 def test_fortnights_to_hours_docs_1():
-    assert fortnights_to_hours(1) == 336.0
+    assert fortnights_to_hours(1) == pytest.approx(336.0)
 
 
 def test_fortnights_to_millenniums_docs_1():
-    assert fortnights_to_millenniums(1) == 3.832991101984942e-05
+    assert fortnights_to_millenniums(1) == pytest.approx(3.832991101984942e-05)
 
 
 def test_fortnights_to_minutes_docs_1():
-    assert fortnights_to_minutes(1) == 20160.0
+    assert fortnights_to_minutes(1) == pytest.approx(20160.0)
 
 
 def test_fortnights_to_months_docs_1():
-    assert fortnights_to_months(1) == 0.45995893223819295
+    assert fortnights_to_months(1) == pytest.approx(0.459958932238193)
 
 
 def test_fortnights_to_seconds_docs_1():
-    assert fortnights_to_seconds(1) == 1209600
+    assert fortnights_to_seconds(1) == pytest.approx(1209600)
 
 
 def test_fortnights_to_weeks_docs_1():
-    assert fortnights_to_weeks(1) == 2.0
+    assert fortnights_to_weeks(1) == pytest.approx(2.0)
 
 
 def test_fortnights_to_years_docs_1():
-    assert fortnights_to_years(1) == 0.038329911019849415
+    assert fortnights_to_years(1) == pytest.approx(0.038329911019849415)
 
 
 def test_hours_to_centuries_docs_1():
-    assert hours_to_centuries(1) == 1.1407711613050422e-06
+    assert hours_to_centuries(1) == pytest.approx(1.140771161305042e-06)
 
 
 def test_hours_to_days_docs_1():
-    assert hours_to_days(1) == 0.041666666666666664
+    assert hours_to_days(1) == pytest.approx(0.041666666666666664)
 
 
 def test_hours_to_fortnights_docs_1():
-    assert hours_to_fortnights(1) == 0.002976190476190475
+    assert hours_to_fortnights(1) == pytest.approx(0.002976190476190476)
 
 
 def test_hours_to_millenniums_docs_1():
-    assert hours_to_millenniums(1) == 1.1407711613050421e-07
+    assert hours_to_millenniums(1) == pytest.approx(1.1407711613050421e-07)
 
 
 def test_hours_to_minutes_docs_1():
-    assert hours_to_minutes(1) == 60.0
+    assert hours_to_minutes(1) == pytest.approx(60.0)
 
 
 def test_hours_to_months_docs_1():
-    assert hours_to_months(1) == 0.0013689253935660506
+    assert hours_to_months(1) == pytest.approx(0.0013689253935660506)
 
 
 def test_hours_to_seconds_docs_1():
-    assert hours_to_seconds(1) == 3600
+    assert hours_to_seconds(1) == pytest.approx(3600)
 
 
 def test_hours_to_weeks_docs_1():
-    assert hours_to_weeks(1) == 0.00595238095238095
+    assert hours_to_weeks(1) == pytest.approx(0.005952380952380952)
 
 
 def test_hours_to_years_docs_1():
-    assert hours_to_years(1) == 0.00011407711613050422
+    assert hours_to_years(1) == pytest.approx(0.00011407711613050422)
 
 
 def test_millenniums_to_centuries_docs_1():
-    assert millenniums_to_centuries(1) == 10.0
+    assert millenniums_to_centuries(1) == pytest.approx(10.0)
 
 
 def test_millenniums_to_days_docs_1():
-    assert millenniums_to_days(1) == 365250.0
+    assert millenniums_to_days(1) == pytest.approx(365250.0)
 
 
 def test_millenniums_to_fortnights_docs_1():
-    assert millenniums_to_fortnights(1) == 26089.285714285706
+    assert millenniums_to_fortnights(1) == pytest.approx(26089.285714285714)
 
 
 def test_millenniums_to_hours_docs_1():
-    assert millenniums_to_hours(1) == 8766000.0
+    assert millenniums_to_hours(1) == pytest.approx(8766000.0)
 
 
 def test_millenniums_to_minutes_docs_1():
-    assert millenniums_to_minutes(1) == 525960000.0
+    assert millenniums_to_minutes(1) == pytest.approx(525960000.0)
 
 
 def test_millenniums_to_months_docs_1():
-    assert millenniums_to_months(1) == 12000.0
+    assert millenniums_to_months(1) == pytest.approx(12000.0)
 
 
 def test_millenniums_to_seconds_docs_1():
-    assert millenniums_to_seconds(1) == 31557600000.0
+    assert millenniums_to_seconds(1) == pytest.approx(31557600000.0)
 
 
 def test_millenniums_to_weeks_docs_1():
-    assert millenniums_to_weeks(1) == 52178.57142857141
+    assert millenniums_to_weeks(1) == pytest.approx(52178.57142857143)
 
 
 def test_millenniums_to_years_docs_1():
-    assert millenniums_to_years(1) == 1000.0
+    assert millenniums_to_years(1) == pytest.approx(1000.0)
 
 
 def test_minutes_to_centuries_docs_1():
-    assert minutes_to_centuries(1) == 1.901285268841737e-08
+    assert minutes_to_centuries(1) == pytest.approx(1.9012852688417368e-08)
 
 
 def test_minutes_to_days_docs_1():
-    assert minutes_to_days(1) == 0.0006944444444444444
+    assert minutes_to_days(1) == pytest.approx(0.0006944444444444444)
 
 
 def test_minutes_to_fortnights_docs_1():
-    assert minutes_to_fortnights(1) == 4.960317460317459e-05
+    assert minutes_to_fortnights(1) == pytest.approx(4.9603174603174596e-05)
 
 
 def test_minutes_to_hours_docs_1():
-    assert minutes_to_hours(1) == 0.016666666666666666
+    assert minutes_to_hours(1) == pytest.approx(0.016666666666666666)
 
 
 def test_minutes_to_millenniums_docs_1():
-    assert minutes_to_millenniums(1) == 1.9012852688417366e-09
+    assert minutes_to_millenniums(1) == pytest.approx(1.901285268841737e-09)
 
 
 def test_minutes_to_months_docs_1():
-    assert minutes_to_months(1) == 2.2815423226100844e-05
+    assert minutes_to_months(1) == pytest.approx(2.2815423226100844e-05)
 
 
 def test_minutes_to_seconds_docs_1():
-    assert minutes_to_seconds(1) == 60
+    assert minutes_to_seconds(1) == pytest.approx(60)
 
 
 def test_minutes_to_weeks_docs_1():
-    assert minutes_to_weeks(1) == 9.920634920634918e-05
+    assert minutes_to_weeks(1) == pytest.approx(9.920634920634919e-05)
 
 
 def test_minutes_to_years_docs_1():
-    assert minutes_to_years(1) == 1.901285268841737e-06
+    assert minutes_to_years(1) == pytest.approx(1.901285268841737e-06)
 
 
 def test_months_to_centuries_docs_1():
-    assert months_to_centuries(1) == 0.0008333333333333334
+    assert months_to_centuries(1) == pytest.approx(0.0008333333333333333)
 
 
 def test_months_to_days_docs_1():
-    assert months_to_days(1) == 30.4375
+    assert months_to_days(1) == pytest.approx(30.4375)
 
 
 def test_months_to_fortnights_docs_1():
-    assert months_to_fortnights(1) == 2.1741071428571423
+    assert months_to_fortnights(1) == pytest.approx(2.174107142857143)
 
 
 def test_months_to_hours_docs_1():
-    assert months_to_hours(1) == 730.5
+    assert months_to_hours(1) == pytest.approx(730.5)
 
 
 def test_months_to_millenniums_docs_1():
-    assert months_to_millenniums(1) == 8.333333333333333e-05
+    assert months_to_millenniums(1) == pytest.approx(8.333333333333333e-05)
 
 
 def test_months_to_minutes_docs_1():
-    assert months_to_minutes(1) == 43830.0
+    assert months_to_minutes(1) == pytest.approx(43830.0)
 
 
 def test_months_to_seconds_docs_1():
-    assert months_to_seconds(1) == 2629800.0
+    assert months_to_seconds(1) == pytest.approx(2629800.0)
 
 
 def test_months_to_weeks_docs_1():
-    assert months_to_weeks(1) == 4.348214285714285
+    assert months_to_weeks(1) == pytest.approx(4.348214285714286)
 
 
 def test_months_to_years_docs_1():
-    assert months_to_years(1) == 0.08333333333333333
+    assert months_to_years(1) == pytest.approx(0.08333333333333333)
 
 
 def test_seconds_to_centuries_docs_1():
-    assert seconds_to_centuries(60) == 1.9012852688417368e-08
+    assert seconds_to_centuries(60) == pytest.approx(1.9012852688417368e-08)
 
 
 def test_seconds_to_days_docs_1():
-    assert seconds_to_days(60) == 0.0006944444444444444
+    assert seconds_to_days(60) == pytest.approx(0.0006944444444444444)
 
 
 def test_seconds_to_fortnights_docs_1():
-    assert seconds_to_fortnights(60) == 4.960317460317459e-05
+    assert seconds_to_fortnights(60) == pytest.approx(4.9603174603174596e-05)
 
 
 def test_seconds_to_hours_docs_1():
-    assert seconds_to_hours(60) == 0.016666666666666666
+    assert seconds_to_hours(60) == pytest.approx(0.016666666666666666)
 
 
 def test_seconds_to_millenniums_docs_1():
-    assert seconds_to_millenniums(60) == 1.901285268841737e-09
+    assert seconds_to_millenniums(60) == pytest.approx(1.901285268841737e-09)
 
 
 def test_seconds_to_minutes_docs_1():
-    assert seconds_to_minutes(60) == 1.0
+    assert seconds_to_minutes(60) == pytest.approx(1.0)
 
 
 def test_seconds_to_months_docs_1():
-    assert seconds_to_months(60) == 2.2815423226100844e-05
+    assert seconds_to_months(60) == pytest.approx(2.2815423226100844e-05)
 
 
 def test_seconds_to_weeks_docs_1():
-    assert seconds_to_weeks(60) == 9.920634920634918e-05
+    assert seconds_to_weeks(60) == pytest.approx(9.920634920634919e-05)
 
 
 def test_seconds_to_years_docs_1():
-    assert seconds_to_years(60) == 1.901285268841737e-06
+    assert seconds_to_years(60) == pytest.approx(1.901285268841737e-06)
 
 
 def test_weeks_to_centuries_docs_1():
-    assert weeks_to_centuries(1) == 0.00019164955509924707
+    assert weeks_to_centuries(1) == pytest.approx(0.0001916495550992471)
 
 
 def test_weeks_to_days_docs_1():
-    assert weeks_to_days(1) == 7.0
+    assert weeks_to_days(1) == pytest.approx(7.0)
 
 
 def test_weeks_to_fortnights_docs_1():
-    assert weeks_to_fortnights(1) == 0.5
+    assert weeks_to_fortnights(1) == pytest.approx(0.5)
 
 
 def test_weeks_to_hours_docs_1():
-    assert weeks_to_hours(1) == 168.0
+    assert weeks_to_hours(1) == pytest.approx(168.0)
 
 
 def test_weeks_to_millenniums_docs_1():
-    assert weeks_to_millenniums(1) == 1.916495550992471e-05
+    assert weeks_to_millenniums(1) == pytest.approx(1.916495550992471e-05)
 
 
 def test_weeks_to_minutes_docs_1():
-    assert weeks_to_minutes(1) == 10080.0
+    assert weeks_to_minutes(1) == pytest.approx(10080.0)
 
 
 def test_weeks_to_months_docs_1():
-    assert weeks_to_months(1) == 0.22997946611909648
+    assert weeks_to_months(1) == pytest.approx(0.2299794661190965)
 
 
 def test_weeks_to_seconds_docs_1():
-    assert weeks_to_seconds(1) == 604800
+    assert weeks_to_seconds(1) == pytest.approx(604800)
 
 
 def test_weeks_to_years_docs_1():
-    assert weeks_to_years(1) == 0.019164955509924708
+    assert weeks_to_years(1) == pytest.approx(0.019164955509924708)
 
 
 def test_years_to_centuries_docs_1():
-    assert years_to_centuries(1) == 0.01
+    assert years_to_centuries(1) == pytest.approx(0.01)
 
 
 def test_years_to_days_docs_1():
-    assert years_to_days(1) == 365.25
+    assert years_to_days(1) == pytest.approx(365.25)
 
 
 def test_years_to_fortnights_docs_1():
-    assert years_to_fortnights(1) == 26.089285714285708
+    assert years_to_fortnights(1) == pytest.approx(26.08928571428571)
 
 
 def test_years_to_hours_docs_1():
-    assert years_to_hours(1) == 8766.0
+    assert years_to_hours(1) == pytest.approx(8766.0)
 
 
 def test_years_to_millenniums_docs_1():
-    assert years_to_millenniums(1) == 0.001
+    assert years_to_millenniums(1) == pytest.approx(0.001)
 
 
 def test_years_to_minutes_docs_1():
-    assert years_to_minutes(1) == 525960.0
+    assert years_to_minutes(1) == pytest.approx(525960.0)
 
 
 def test_years_to_months_docs_1():
-    assert years_to_months(1) == 12.0
+    assert years_to_months(1) == pytest.approx(12.0)
 
 
 def test_years_to_seconds_docs_1():
-    assert years_to_seconds(1) == 31557600.0
+    assert years_to_seconds(1) == pytest.approx(31557600.0)
 
 
 def test_years_to_weeks_docs_1():
-    assert years_to_weeks(1) == 52.178571428571416
+    assert years_to_weeks(1) == pytest.approx(52.17857142857142)
